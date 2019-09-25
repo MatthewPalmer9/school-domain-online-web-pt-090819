@@ -18,4 +18,11 @@ class School
     end
     @roster[grade] << student
   end
+  
+  def grade(grade)
+    @roster.each(){|key, value| 
+      if key == grade
+        return value
+    }
+  end
 end 
