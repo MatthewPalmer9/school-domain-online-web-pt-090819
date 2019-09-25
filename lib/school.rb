@@ -10,6 +10,9 @@ class School
   end
   
   def add_student(string_name, grade)
-    roster << [grade => [string_name]]
+    roster.each(){ |key, value| 
+      if string_name && grade
+        
+    }
   end
 end 
