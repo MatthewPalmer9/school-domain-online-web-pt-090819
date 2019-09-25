@@ -13,5 +13,6 @@ class School
   
   def add_student(string_name, grade)
     @roster = {grade => [string_name]}
+    @roster
   end
 end 
