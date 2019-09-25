@@ -20,10 +20,6 @@ class School
   end
   
   def grade(grade)
-    @roster.each(){|key, value| 
-      if key == grade
-        p value
-      end
-    }
+    @roster[grade]
   end
 end 
