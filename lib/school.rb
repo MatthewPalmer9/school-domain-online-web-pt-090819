@@ -23,6 +23,7 @@ class School
     @roster.each(){|key, value| 
       if key == grade
         p value
+      end
     }
   end
 end 
