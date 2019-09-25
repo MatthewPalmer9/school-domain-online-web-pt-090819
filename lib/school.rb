@@ -22,7 +22,7 @@ class School
   def grade(grade)
     @roster.each(){|key, value| 
       if key == grade
-        return value
+        p value
     }
   end
 end 
