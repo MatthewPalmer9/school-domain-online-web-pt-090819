@@ -7,6 +7,11 @@ class School
     @school = school_name
   end 
   
-  def add_student(string_name, grade)
+  def roster 
+    {}
+  end
   
+  def add_student(string_name, grade)
+    roster << [grade => [string_name]]
+  end
 end 
