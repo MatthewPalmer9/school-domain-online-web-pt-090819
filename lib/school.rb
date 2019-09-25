@@ -16,5 +16,6 @@ class School
     if !@roster.include?(grade)
       @roster[grade] = []
     end
+    @roster[grade] << 
   end
 end 
