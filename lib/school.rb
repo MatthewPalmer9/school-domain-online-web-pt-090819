@@ -25,7 +25,7 @@ class School
   
   def sort 
     @roster.each(){ |key, value| 
-      
+      @roster[value]
     }
   end
 end 
